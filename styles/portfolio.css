@@ -18,12 +18,25 @@ body {
     padding: 15px 35px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     /* align-items: center;  eta ami comment e rakhhsi as ul eo eta ache.jhankar na */
-    margin:0px 200px;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -45,15 +58,73 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#gap {
+    /* hire me and contact me button er gap er jonno */
+    margin-left: 30px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.about-info{
+    text-align: center;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }

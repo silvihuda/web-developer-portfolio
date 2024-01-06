@@ -35,7 +35,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    /* align-items: center;  eta ami comment e rakhhsi as ul eo eta ache.jhankar na */
+     align-items: center; 
     margin: 0px 200px;
 }
 
@@ -190,4 +190,11 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
